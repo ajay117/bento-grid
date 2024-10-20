@@ -143,6 +143,8 @@ img {
 .overflow_hidden {
   overflow: hidden;
 }
+
+/* || Media Screen */
 @media screen and (min-width: 900px) {
   .container {
     width: 80%;
