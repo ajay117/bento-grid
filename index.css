@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "DMSans-VariableFont_opsz,wght";
+  src: url("./assets/fonts/DMSans-VariableFont_opsz\,wght.ttf");
+}
+
+:root {
+  --purple-100: hsl(254, 88%, 90%);
+  --purple-500: hsl(256, 67%, 59%);
+  --yellow-100: hsl(31, 66%, 93%);
+  --yellow-500: hsl(39, 100%, 71%);
+
+  --font-primary: "DMSans-VariableFont_opsz,wght";
+}
+
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.6rem;
+  font-family: var(--font-primary);
+}
+.box {
+  border: 1px solid black;
+}
+.box-social {
+  background-color: var(--purple-500);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+}
+.box-social-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 4.2rem;
+  color: white;
+}
+.box-social img {
+  width: 100px;
+  margin: 10px 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.font_large {
+  font-size: 42px;
+}
+.m-0 {
+  margin: 0;
+}
+.text_white {
+  color: #ffffff;
+}
+.text_yellow {
+  color: var(--yellow-500);
+}
+.text_thin {
+  font-weight: 200;
+}
+.text_space_md {
+  letter-spacing: 1px;
+}
+.text_italic {
+  font-style: italic;
+}
